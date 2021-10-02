@@ -15,7 +15,7 @@ function cameraStart() {
     .catch(function(error) {
         console.error("Oops. Something is broken.", error);
     });
-}
+};
 
 cameraTrigger.onclick = function() {
     cameraSensor.width = cameraView.videoWidth;
